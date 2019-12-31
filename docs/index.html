@@ -1,133 +1,79 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Silverback</title>
-
-    <link rel="icon" type="image/png" href="logo.png" />
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap.min.css" rel="stylesheet" type="text/css">
-
-    <style>
-        html,
-        body {
-            background-color: #f5f7fb;
-            color: black;
-            font-family: 'Nunito', sans-serif;
-            font-weight: 200;
-            height: 100vh;
-            margin: 0;
-        }
-
-        .full-height {
-            height: 100vh;
-        }
-
-        .flex-center {
-            align-items: center;
-            display: flex;
-            justify-content: center;
-        }
-
-        .position-ref {
-            position: relative;
-        }
-
-        .top-right {
-            position: absolute;
-            right: 10px;
-            top: 18px;
-        }
-
-        .content {
-            text-align: center;
-        }
-
-        .title {
-            font-size: 32px;
-        }
-
-        .links > a {
-            color: #636b6f;
-            padding: 0 25px;
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .1rem;
-            text-decoration: none;
-            text-transform: uppercase;
-        }
-
-        .m-b-md {
-            margin-bottom: 2px;
-        }
-    </style>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135459325-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-135459325-1');
-    </script>
-</head>
-
-<body>
-    <div class="flex-center position-ref full-height">
-        <div class="content">
-            <div class="row">
-                <div class="col-sm text-center">
-                    <img src="logo.png" width="120">
-                </div>
-            </div>
-            <br/>
-            <br/>
-            <div class="row">
-                <div class="col-sm text-center">
-                    <h4>Welcome to the Silverback Projects!</h4>
-                    <p>We are a community-driven organization with the goal to maintain and improve these projects.</p>
-                </div>
-            </div>
-            <br/>
-            <br/>
-            <div class="row">
-                <div class="col-sm-3"></div>
-                <div class="col-sm-3 text-center">
-                    <h5><a href="https://github.com/silverbackhq/Silverback">Silverback</a></h5>
-                    <p>An Open Source Status and Incident Communication Tool.</p>
-                    <p></p>
-                </div>
-                <div class="col-sm-3 text-center">
-                    <h5><a href="https://github.com/silverbackhq/pyumetric">PyuMetric</a></h5>
-                    <p>A Python Package to unify time series data sources and third party monitoring services.</p>
-                </div>
-                <div class="col-sm-3"></div>
-            </div>
-            <br/>
-            <div class="row">
-                <div class="col-sm-3"></div>
-                <div class="col-sm-3 text-center">
-                    <h5><a href="https://github.com/silverbackhq/pywalrus">PyWalrus</a></h5>
-                    <p>A Python Package for Email Automation.</p>
-                </div>
-                <div class="col-sm-3 text-center">
-                    <h5><a href="https://github.com/silverbackhq/PyValitron">PyValitron</a></h5>
-                    <p>A Python Inputs Validation Library.</p>
-                </div>
-                <div class="col-sm-3"></div>
-            </div>
-        </div>
-    </div>
-    <script src="jquery-3.3.1.slim.min.js"></script>
-    <script src="popper.min.js"></script>
-    <script src="bootstrap.min.js"></script>
-</body>
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Silverback</title>
+        <link rel="icon" href="https://silverbackhq.org/logo.png" sizes="32x32" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <style type="text/css" media="screen">
+            body {
+                font-family: "Anonymous Pro", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
+                font-size: 12px;
+                padding: 20px;
+            }
+            body > p {
+                margin: 23px 0 20px 0px;
+                padding: 0;
+                color: black;
+                color: #999;
+            }
+            body > p > a {
+                margin: 0;
+                padding: 0;
+                background-color: #FEE101;
+                color: grey;
+                text-decoration: none;
+                padding: 3px 3px 3px 3px;
+            }
+            body > p > a > span {
+                color: pink;
+            }
+            body > p > a:hover {
+                background-color: black;
+            }
+            body > ul {
+                display: block;
+                float: none;
+                clear: both;
+                margin: 30px 0 0 0;
+                padding: 0;
+                list-style: none;
+            }
+            body > ul > li {
+                margin-bottom: 50px;
+                padding: 0px;
+                padding-top: 10px;
+                display: block;
+                float: left;
+                border-top: 5px solid black;
+                width: 300px;
+                margin-right: 200px;
+            }
+            body > ul > li > ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            body > ul > li > ul > li {
+                font-size: 10px;
+                padding: 2px 0 2px 0;
+            }
+            body > ul > li > ul > li:first-child {
+                padding: 3px 0 10px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="https://silverbackhq.org/logo.png" style="height: 120px;">
+        <p><a href="https://github.com/silverbackhq">Silverback</a> Welcome to the Silverback Projects!</p>
+        <ul>
+            <li><a href="https://github.com/silverbackhq/silverback">Silverback</a> A Status and Incident Communication Tool. </li>
+            <li><a href="https://github.com/silverbackhq/sloth">Sloth</a> Liteweight HA Monitoring & Alerting System.</li>
+            <li><a href="https://github.com/silverbackhq/reindeer">Reindeer</a> A Service to Mock and Inspect HTTP Events.</li>
+            <li><a href="https://github.com/silverbackhq/pyumetric">Pyumetric</a> A Python Package to unify time series data sources and third party monitoring services.</li>
+            <li><a href="https://github.com/silverbackhq/pyvalitron">Pyvalitron</a> Python Inputs Validation Library.</li>
+        </ul>
+    </body>
 </html>
